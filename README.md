@@ -10,7 +10,7 @@ Identificar los cambios en el balance autonómico a partir del análisis tempora
 𝙞𝙢𝙥𝙤𝙧𝙩𝙖𝙘𝙞ó𝙣 𝙙𝙚 𝙡𝙞𝙗𝙧𝙚𝙧𝙞𝙖𝙨
 <h1 align="center"><i><b>𝐏𝐚𝐫𝐭𝐞 A 𝐝𝐞𝐥 𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐨𝐫𝐢𝐨</b></i></h1>
 
-```mermaid
+```python
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch, ArrowStyle, FancyArrowPatch
 import numpy as np
