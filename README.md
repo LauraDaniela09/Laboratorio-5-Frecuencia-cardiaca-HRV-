@@ -10,58 +10,6 @@ Identificar los cambios en el balance autonómico a partir del análisis tempora
 𝙞𝙢𝙥𝙤𝙧𝙩𝙖𝙘𝙞ó𝙣 𝙙𝙚 𝙡𝙞𝙗𝙧𝙚𝙧𝙞𝙖𝙨
 <h1 align="center"><i><b>𝐏𝐚𝐫𝐭𝐞 A 𝐝𝐞𝐥 𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐨𝐫𝐢𝐨</b></i></h1>
 
-```python
-import matplotlib.pyplot as plt
-from matplotlib.patches import FancyBboxPatch, ArrowStyle, FancyArrowPatch
-import numpy as np
-import os
-
-fig, ax = plt.subplots(figsize=(12,6))
-ax.set_xlim(0, 12)
-ax.set_ylim(0, 6)
-ax.axis('off')
-
-def box(x, y, w, h, text, fontsize=11):
-    rect = FancyBboxPatch((x, y), w, h, boxstyle="round,pad=0.3", linewidth=1.5)
-    ax.add_patch(rect)
-    ax.text(x + w/2, y + h/2, text, ha='center', va='center', fontsize=fontsize, wrap=True)
-
-# Cajas (ajusta textos si lo deseas)
-box(0.5, 3.8, 2.2, 1.0, "Investigación\ntheórica\n(Actividad simpática/\nparasimpática, HRV,\nPoincaré)", fontsize=10)
-box(3.0, 3.8, 2.2, 1.0, "Plan de acción\n(Diagrama de flujo\nprocedimental)", fontsize=10)
-box(5.5, 3.8, 2.2, 1.0, "Adquisición\nECG (4 min)\n— 2 min reposo\n— 2 min lectura", fontsize=10)
-
-box(0.5, 1.8, 2.2, 1.0, "Verificación\nde muestreo y\nniveles de cuantificación", fontsize=10)
-box(3.0, 1.8, 2.2, 1.0, "Pre-procesamiento\nFiltrado digital\n(Diseño IIR)", fontsize=10)
-box(5.5, 1.8, 2.2, 1.0, "Segmentación\n(2 segmentos\nx 2 min)", fontsize=10)
-
-box(8.0, 3.8, 3.0, 1.0, "Detección de\npicos R\nCálculo de\nintervalos R-R", fontsize=10)
-box(8.0, 1.8, 3.0, 1.0, "Análisis HRV\n(Dominio del tiempo:\nmedia RR, SDNN,\nRMSSD, pNN50)\nDiagrama de Poincaré", fontsize=10)
-
-def arrow(x1, y1, x2, y2):
-    arr = FancyArrowPatch((x1,y1),(x2,y2), arrowstyle=ArrowStyle("->", head_length=8, head_width=4), mutation_scale=12, linewidth=1.2)
-    ax.add_patch(arr)
-
-# Flechas de conexión
-arrow(2.7, 4.3, 3.0, 4.3)
-arrow(5.2, 4.3, 5.5, 4.3)
-arrow(7.7, 4.3, 8.0, 4.3)
-arrow(2.7, 2.3, 3.0, 2.3)
-arrow(5.2, 2.3, 5.5, 2.3)
-arrow(7.7, 2.3, 8.0, 2.3)
-arrow(6.6, 3.8, 6.6, 2.8)
-arrow(8.9, 2.8, 8.9, 2.0)
-arrow(5.8, 2.8, 7.8, 3.6)
-
-ax.text(6.0, 5.6, "Diagrama de bloques — PARTE A (Plan de acción y flujo experimental)", ha='center', fontsize=14, weight='bold')
-ax.text(6.0, 5.25, "Diagrama listo para incluir en informe o presentar en GitHub", ha='center', fontsize=10)
-
-out_path = "/mnt/data/diagrama_parteA.png"
-plt.tight_layout()
-plt.savefig(out_path, dpi=200, bbox_inches='tight')
-plt.show()
-print(f"Diagrama guardado en: {out_path}")
-```
 
 𝙛𝙪𝙣𝙙𝙖𝙢𝙚𝙣𝙩𝙤 𝙩𝙚𝙤𝙧𝙞𝙘𝙤 
 
