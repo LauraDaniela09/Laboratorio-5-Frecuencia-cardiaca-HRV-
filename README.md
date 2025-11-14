@@ -19,6 +19,9 @@ En la primera parte de la práctica se realizó una investigación teórica sobr
 
 2. Efecto de la actividad simpatica del sistema nervioso autonomo:
 3. variabilidad de la frecuencia cardiaca (HRC) obtenida a partir de la señal electrocardiografica (ECG).
-4. Diagrama de poincare como herramienta  de analisis de la Señal R-R:
+
+La variación en el tiempo entre dos latidos del corazón se denomina VFC. Es uno de los indicadores de muchas condiciones patológicas relacionadas con la salud cardiovascular. Proporcionó información confiable sobre la interacción de los sistemas nerviosos simpático y parasimpático. El análisis de la variación de la frecuencia cardíaca es una técnica no invasiva bien conocida para identificar el funcionamiento del sistema nervioso autónomo. El sistema nervioso autónomo (SNA) depende del sistema nervioso simpático y parasimpático para transferir información. El centro cardioacelerador, los pulmones y los músculos no estriados están inervados por nervios simpáticos cardíacos. Esta división del ANS se aferra al corazón en consecuencia viael ganglio cervicotorácico y el nervio vago. Se encuentra que la variabilidad normal cardíaca depende de esta estimulación hacia el nódulo sinoauricular (marcapasos), la cual puede evaluarse analizando la VFC. En estudios realizados en humanos, se ha descubierto que un nivel bajo de VFC es una de las principales causas de muerte entre los adultos. Por tanto, la VFC ayuda a identificar el riesgo de enfermedades cardíacas y el estado del SNA.
+
+5. Diagrama de poincare como herramienta  de analisis de la Señal R-R:
 
 
