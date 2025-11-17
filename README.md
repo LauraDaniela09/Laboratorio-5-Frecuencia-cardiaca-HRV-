@@ -149,7 +149,9 @@ A su vez tambien se obtienen los parámetros SD1 y SD2. El primero está asociad
 | **SD2**       | Desviación estándar en la dirección paralela a la línea de identidad. | Asociado a la variabilidad a largo plazo (fluctuaciones lentas). | Refleja el **equilibrio entre los sistemas simpático y parasimpático**. |
 
 
-**plan de acccion** 
+**Plan de acccion** 
+A continuación, se presentará el plan de acción que se implementará para abordar los puntos clave del análisis. Este plan tiene como objetivo facilitar la comprensión de los resultados y definir las siguientes acciones a seguir.
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/33e4c00e-feb1-4874-a904-b7d704122998" width="300">
 </p>
