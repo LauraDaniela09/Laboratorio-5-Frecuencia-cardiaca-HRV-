@@ -292,7 +292,7 @@ Este código usa `NumPy` para cargar los datos del archivo `.txt` con `np.loadtx
 
 **resultado** 
 <p align="center">
-<img width="857" height="547" alt="image" src="https://github.com/user-attachments/assets/4db367e2-a42f-417b-b372-c3394e003a06" />
+<img width="500" height="547" alt="image" src="https://github.com/user-attachments/assets/4db367e2-a42f-417b-b372-c3394e003a06" />
 </p>
 
 ```python
