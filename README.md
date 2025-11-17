@@ -65,15 +65,47 @@ Es una herramienta para el analisis no lineal de la variable de la frecuencia ca
 Cuando se obtiene una figura en forma de elipse estrecha y alargada, se interpreta como baja variabilidad Esto implica que los intervalos entre latidos cambia muy poco, lo que refleja una menor flexibilidad del sistema nervioso autonomo para adaptarse  a las demandas internas y externas.
 Por otro lado una figura más amplia , dispersa  o cercana a una forma  circular indica una alta variabilidad cardiaca  y un mejor equilibrio entre los sistemas Simpatico y parasimpatico. 
 En comparación con otros metodos lineales, el diagrama de poincare  ofrece una vision topologica y geometrica de la dinamica cardiaca, permitiendo captar comportamientos no lineales que no se evidenciar mediante estadisticas convencionales. Por ello, esta herramienta se utiliza frecuentemente en el estudio de la serie R-R  para evaluar el control autonomico del corazón en condicion de repaso  estres o enfermedad. 
-### Interpretación del Diagrama de Poincaré
+<div align="center">
 
-| **Forma del Diagrama**        | **Nivel de Variabilidad** | **Sistema Nervioso Predominante**      | **Interpretación Fisiológica**                                                                 |
-|-------------------------------|---------------------------|-----------------------------------------|--------------------------------------------------------------------------------------------------|
-| **Elipse estrecha y alargada** | Baja variabilidad         | Predominio simpático                    | El corazón late de manera muy regular. Menor flexibilidad para adaptarse a cambios; posible estrés o rigidez autonómica. |
-| **Elipse amplia**              | Variabilidad moderada     | Equilibrio simpático-parasimpático      | Buena adaptación general, aunque con algo de rigidez. Refleja un control autónomo aceptable.     |
-| **Forma circular o muy dispersa** | Alta variabilidad         | Fuerte equilibrio simpático-parasimpático | El corazón se adapta muy bien a cambios. Alta flexibilidad fisiológica; buen estado autonómico. |
-| **Puntos irregulares o dispersión caótica** | Variabilidad alterada o baja | Desbalance autónomo                     | Posible disfunción del control cardíaco. Puede reflejar estrés alto, fatiga o condiciones patológicas. |
+<table style="width: 70%; text-align: center;">
+  <tr>
+    <th>Forma del Diagrama</th>
+    <th>Variabilidad</th>
+    <th>Sistema Nervioso Involucrado</th>
+    <th>Interpretación</th>
+  </tr>
 
+  <tr>
+    <td>Elipse estrecha y alargada</td>
+    <td>Baja variabilidad</td>
+    <td>Predomina el simpático</td>
+    <td>Menor flexibilidad del corazón, poca adaptación.</td>
+  </tr>
+
+  <tr>
+    <td>Elipse amplia</td>
+    <td>Variabilidad moderada</td>
+    <td>Equilibrio simpático–parasimpático</td>
+    <td>Buena respuesta, aunque con cierta rigidez.</td>
+  </tr>
+
+  <tr>
+    <td>Forma circular o dispersa</td>
+    <td>Alta variabilidad</td>
+    <td>Fuerte equilibrio autónomo</td>
+    <td>El corazón se adapta muy bien a los cambios.</td>
+  </tr>
+
+  <tr>
+    <td>Puntos irregulares</td>
+    <td>Variabilidad baja o irregular</td>
+    <td>Desbalance autónomo</td>
+    <td>Relacionado con estrés o posibles alteraciones.</td>
+  </tr>
+
+</table>
+
+</div>
 
 plan de acccion 
 
