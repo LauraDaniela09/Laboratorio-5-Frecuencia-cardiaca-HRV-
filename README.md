@@ -279,7 +279,7 @@ t = data[:, 0]  # Tiempo (en segundos)
 senal = data[:, 1]  # Señal ECG
 
 plt.figure(figsize=(10, 6))
-plt.plot(t, senal, label="ECG "¨,color="#C8A2C8")
+plt.plot(t, senal, label="ECG SUJETO X "¨,color="#C8A2C8")
 plt.title("ECG Adquirido desde DAQ")
 plt.xlabel("Tiempo (s)")
 plt.ylabel("Voltaje (V)")
@@ -289,10 +289,11 @@ plt.show()
 ```
 Este código usa NumPy para cargar los datos del archivo .txt con np.loadtxt() (carga el tiempo y la señal ECG desde el archivo). Luego, usa Matplotlib para graficar la señal con plt.plot(), donde se configura el eje x como el tiempo y el eje y como la señal ECG. Se añaden etiquetas con plt.xlabel() y plt.ylabel(), se establece el título con plt.title(), y se activa la cuadrícula con plt.grid() para mejorar la visualización.
 
-**resultado*
+**resultado** 
 <p align="center">
-<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/d10861c1-9e8f-4f2e-bda0-a89f1a1269dc" />
+<img width="857" height="547" alt="image" src="https://github.com/user-attachments/assets/4db367e2-a42f-417b-b372-c3394e003a06" />
 </p>
+
 
 
 
