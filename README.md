@@ -23,7 +23,7 @@ dentro de este sistema se encuentra el sistema nervioso simpático y el sistema 
   <tr>
     <td style="vertical-align: top; text-align: center;">
       <img src="https://github.com/user-attachments/assets/65cc303a-262d-4998-b7ef-1942768a875d" width="700"><br>
-      <sub><b>Foto 1.</b> Sistema nervioso simpático.[1] </sub>
+      <sub><b>imagen 1.</b> Sistema nervioso simpático.[1] </sub>
     </td>
     <td style="vertical-align: top; padding-left: 15px;">
 sistema nervioso simpático: es el encargado de la aceleración de nuestro cuerpo, es decir es el responsable de la activación de la respuesta de huida cuando una persona se enfrenta a una situación de peligro o estrés .Es importante durante el reposo ya que es clave para preparar al cuerpo durante situaciones de emergencia .[2]
@@ -38,7 +38,7 @@ El sistema nervioso Simpatico funciona activando diversas vias donde se es evide
   <tr>
     <td style="vertical-align: top; text-align: center;">
       <img src="https://github.com/user-attachments/assets/bf0e4117-4f84-4f34-88ca-8376eb56190e" width="400"><br>
-      <sub><b>Foto 1.</b> Sistema nervioso parasimpático.[1] </sub>
+      <sub><b>imagen 2.</b> Sistema nervioso parasimpático.[1] </sub>
     </td>
     <td style="vertical-align: top; padding-left: 15px;">
 Sistema nervioso  parasimpatico: controla la actividad de los musculo liso cardiaco y las glandulas. Es el  encargado de la respuesta  de descanso  debido a que esta involucrado en relentizar el  ritmo cardiaco , relajar los hemisterios en el tracto gastrointestinal y urinario y aumentar la actividad glandular e  intestinal.[3]como resultado se encuentra que el sistema parasimpatico es el encargado del almacenamiento de energía y la regulación de las funciones del cuerpo  como la digestion y la micción.
@@ -62,11 +62,12 @@ La HRV se ha establecido como una herramienta valiosa tanto en entornos clínico
 
 𝟰. 𝘿𝙞𝙖𝙜𝙧𝙖𝙢𝙖 𝙙𝙚 𝙥𝙤𝙞𝙣𝙘𝙖𝙧𝙚 𝙘𝙤𝙢𝙤 𝙝𝙚𝙧𝙧𝙖𝙢𝙞𝙚𝙣𝙩𝙖  𝙙𝙚 𝙖𝙣𝙖𝙡𝙞𝙨𝙞𝙨 𝙙𝙚 𝙡𝙖 𝙎𝙚𝙣̃𝙖𝙡 𝙍-𝙍
 
+
 <table>
   <tr>
     <td style="vertical-align: top; text-align: center;">
-      <img src="https://github.com/user-attachments/assets/e76da245-3f4a-47bf-9c52-f9a9659ae756" width="1500"><br>
-      <sub><b>Foto 1.</b> Sistema nervioso simpático.[1] </sub>
+      <img src="https://github.com/user-attachments/assets/9eca6e8e-34cd-42ee-829f-59da0bf06796" width="1500"><br>
+      <sub><b>imagen 3.</b> diagrama de poincare.[1] </sub>
     </td>
     <td style="vertical-align: top; padding-right: 15px;">
 Es una herramienta para el analisis no lineal de la variable de la frecuencia cardiaca , obtenida a partir de la serie R-R , la cual representa los intervalos  de tiempo entre latidos consecutivos del corazón. Estos permiten mediante una transformación matematica representar graficamente la dinamica de la señal cardiaca. En este metodo , cada intervalo R-R se representan en  función del siguiente (RRn+1) generando una serie de puntos en el plano en forma de nube. la forma y dispersion refleja las caracteristicas  dinámicas del sistema cardiovascular permitiendo identificar patronos de regularidad, variabilidad o comportamiento. Este diagrama se presenta de manera bidimencional permitiendo simplificar la dinamica temporal de la señal (como varia la señal a lo largo del tiempo - intervalos entrelatidos de un momento a otro) y visualizar con claridad los patrones generales del comportamiento autonomico. 
@@ -82,7 +83,7 @@ Por otro lado una figura más amplia , dispersa  o cercana a una forma  circular
 En comparación con otros metodos lineales, el diagrama de poincare  ofrece una vision topologica y geometrica de la dinamica cardiaca, permitiendo captar comportamientos no lineales que no se evidenciar mediante estadisticas convencionales. Por ello, esta herramienta se utiliza frecuentemente en el estudio de la serie R-R  para evaluar el control autonomico del corazón en condicion de repaso  estres o enfermedad. .
     </td>
     <td style="vertical-align: top; text-align: center;">
-      <img src="https://github.com/user-attachments/assets/6734cf2e-2a76-44e3-80ca-5c4a82b3f1f6" width="1500"><br>
+      <img src="https://github.com/user-attachments/assets/e76da245-3f4a-47bf-9c52-f9a9659ae756" width="1500"><br>
       <sub><b>Foto 1.</b> Sistema nervioso simpático.[1]</sub>
     </td>
   </tr>
