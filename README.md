@@ -19,27 +19,34 @@ En la primera parte de la práctica se realizó una investigación teórica sobr
 
 El cuerpo está diseñado para poder mantener un equilibrio perfecto entre la actividad y el descanso ,esto es gracias al sistema nervioso autonomo, ya que este es el encargado de regular muchas de las funciones involuntarias que genera el organismo del cuerpo hconjuntoumano. 
 dentro de este sistema se encuentra el sistema nervioso simpático y el sistema nervioso parasimpático los cuales son dos fuerzas opuestas encargadas de trabajar en  para poder mantener el bienestar del cuerpo.
-<img width="449" height="656" alt="image" src="https://github.com/user-attachments/assets/65cc303a-262d-4998-b7ef-1942768a875d" />
-
 <table>
   <tr>
     <td style="vertical-align: top; text-align: center;">
-      <img src="https://github.com/user-attachments/assets/65cc303a-262d-4998-b7ef-1942768a875d" width="900"><br>
-      <sub><b>Foto 1.</b> Sistema nervioso simpático.</sub>
+      <img src="https://github.com/user-attachments/assets/65cc303a-262d-4998-b7ef-1942768a875d" width="700"><br>
+      <sub><b>Foto 1.</b> Sistema nervioso simpático.[1] </sub>
     </td>
     <td style="vertical-align: top; padding-left: 15px;">
-      El sistema nervioso simpático es el encargado de la aceleración de nuestro cuerpo, es decir, 
-      es el responsable de la activación de la respuesta de huida cuando una persona se enfrenta a 
-      una situación de peligro o estrés. Es importante durante el reposo ya que prepara al cuerpo 
-      para situaciones de emergencia.  
-      Funciona activando diversas vías, donde es evidente el aumento del ritmo cardíaco y respiratorio, 
-      la presión sanguínea, la dilatación de pupilas y los cambios en el flujo sanguíneo para redirigir 
-      la sangre hacia el cerebro, el corazón y los músculos necesarios para la respuesta simpática.
+sistema nervioso simpático: es el encargado de la aceleración de nuestro cuerpo, es decir es el responsable de la activación de la respuesta de huida cuando una persona se enfrenta a una situación de peligro o estrés .Es importante durante el reposo ya que es clave para preparar al cuerpo durante situaciones de emergencia .
+El sistema nervioso Simpatico funciona activando diversas vias donde se es evidente el aumento del ritmo cardiaco y respiratorio, presion sanguinea  dilatación de las pupilan,  cambios en el flujo sanguineo para que la sangre salga de la pie, estomago e intestinos para dirigirse hacia el cerebro,  corazón . y los diferentes musculos que sean  necesarios para llevar a cabo esta respuesta ante la actividad Simpatica.
     </td>
   </tr>
 </table>
 
+
+
+<table>
+  <tr>
+    <td style="vertical-align: top; text-align: center;">
+      <img src="https://github.com/user-attachments/assets/bf0e4117-4f84-4f34-88ca-8376eb56190e" width="700"><br>
+      <sub><b>Foto 1.</b> Sistema nervioso parasimpático.[1] </sub>
+    </td>
+    <td style="vertical-align: top; padding-left: 15px;">
 Sistema nervioso  parasimpatico: controla la actividad de los musculo liso cardiaco y las glandulas. Es el  encargado de la respuesta  de descanso  debido a que esta involucrado en relentizar el  ritmo cardiaco , relajar los hemisterios en el tracto gastrointestinal y urinario y aumentar la actividad glandular e  intestinal. como resultado se encuentra que el sistema parasimpatico es el encargado del almacenamiento de energía y la regulación de las funciones del cuerpo  como la digestion y la micción.
+    </td>
+  </tr>
+</table>
+
+
 
 𝟮. 𝙀𝙛𝙚𝙘𝙩𝙤 𝙙𝙚 𝙡𝙖 𝙖𝙘𝙩𝙞𝙫𝙞𝙙𝙖𝙙 𝙨𝙞𝙢𝙥𝙖𝙩𝙞𝙘𝙖 𝙙𝙚𝙡 𝙨𝙞𝙨𝙩𝙚𝙢𝙖 𝙣𝙚𝙧𝙫𝙞𝙤𝙨𝙤 𝙖𝙪𝙩𝙤𝙣𝙤𝙢𝙤:
 
