@@ -37,7 +37,7 @@ El sistema nervioso Simpatico funciona activando diversas vias donde se es evide
 <table>
   <tr>
     <td style="vertical-align: top; text-align: center;">
-      <img src="https://github.com/user-attachments/assets/bf0e4117-4f84-4f34-88ca-8376eb56190e" width="300"><br>
+      <img src="https://github.com/user-attachments/assets/bf0e4117-4f84-4f34-88ca-8376eb56190e" width="400"><br>
       <sub><b>Foto 1.</b> Sistema nervioso parasimpático.[1] </sub>
     </td>
     <td style="vertical-align: top; padding-left: 15px;">
