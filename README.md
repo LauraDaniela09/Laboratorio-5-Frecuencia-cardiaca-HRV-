@@ -74,6 +74,20 @@ Es una herramienta para el analisis no lineal de la variable de la frecuencia ca
   </tr>
 </table>
 
+<table>
+  <tr>
+    <td style="vertical-align: top; padding-left: 15px;">
+     Cuando se obtiene una figura en forma de elipse estrecha y alargada, se interpreta como baja variabilidad Esto implica que los intervalos entre latidos cambia muy poco, lo que refleja una menor flexibilidad del sistema nervioso autonomo para adaptarse  a las demandas internas y externas.
+Por otro lado una figura más amplia , dispersa  o cercana a una forma  circular indica una alta variabilidad cardiaca  y un mejor equilibrio entre los sistemas Simpatico y parasimpatico. 
+En comparación con otros metodos lineales, el diagrama de poincare  ofrece una vision topologica y geometrica de la dinamica cardiaca, permitiendo captar comportamientos no lineales que no se evidenciar mediante estadisticas convencionales. Por ello, esta herramienta se utiliza frecuentemente en el estudio de la serie R-R  para evaluar el control autonomico del corazón en condicion de repaso  estres o enfermedad. .
+    </td>
+    <td style="vertical-align: top; text-align: center;">
+      <img src="https://github.com/user-attachments/assets/6734cf2e-2a76-44e3-80ca-5c4a82b3f1f6" width="1500"><br>
+      <sub><b>Foto 1.</b> Sistema nervioso simpático.[1]</sub>
+    </td>
+  </tr>
+</table>
+
 
 
 
