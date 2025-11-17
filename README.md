@@ -33,9 +33,7 @@ La HRV se ha establecido como una herramienta valiosa tanto en entornos clínico
 
 plan de acccion 
 
-<p align="center">
-  <img src="![_Diagrama de flujo](https://github.com/user-attachments/assets/a026edb5-121d-4507-bac4-e6e9d05238b0)" width="350">
-</p>
+<img src="C:\Users\USUARIO\Downloads\_Diagrama de flujo.jpeg" width="300">
 
 
 <h1 align="center"><i><b>Bibliografia</b></i></h1>
