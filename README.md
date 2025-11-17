@@ -15,7 +15,7 @@ Identificar los cambios en el balance autonómico a partir del análisis tempora
 
 En la primera parte de la práctica se realizó una investigación teórica sobre la actividad simpática y parasimpática del sistema nervioso autónomo, su influencia en la frecuencia cardíaca y el concepto de variabilidad de la frecuencia cardíaca (HRV). Además, se estudió cómo la señal electrocardiográfica (ECG) permite obtener los intervalos R-R necesarios para el análisis de la HRV y se revisó el uso del diagrama de Poincaré como herramienta gráfica para evaluar el equilibrio entre la actividad simpática y parasimpáticaEn la primera parte de la práctica se realizó una investigación teórica sobre la actividad simpática y parasimpática del sistema nervioso autónomo, su influencia en la frecuencia cardíaca y el concepto de variabilidad de la frecuencia cardíaca (HRV). Además, se estudió cómo la señal electrocardiográfica (ECG) permite obtener los intervalos R-R necesarios para el análisis de la HRV y se revisó el uso del diagrama de Poincaré como herramienta gráfica para evaluar el equilibrio entre la actividad simpática y parasimpática.
 
-𝟭. 𝘼𝙘𝙩𝙞𝙫𝙞𝙙𝙖𝙙 𝙎𝙞𝙢𝙥𝙖𝙩𝙞𝙘𝙖 𝙮 𝙋𝙖𝙧𝙖𝙨𝙞𝙢𝙥𝙖𝙩𝙞𝙘𝙖 𝙙𝙚𝙡 𝙨𝙞𝙨𝙩𝙚𝙢𝙖 𝙣𝙚𝙧𝙫𝙞𝙤𝙨𝙤 𝙖𝙪𝙩𝙤𝙣𝙤𝙢𝙤:
+𝟭. 𝘼𝙘𝙩𝙞𝙫𝙞𝙙𝙖𝙙 𝙎𝙞𝙢𝙥𝙖𝙩𝙞𝙘𝙖 𝙮 𝙋𝙖𝙧𝙖𝙨𝙞𝙢𝙥𝙖𝙩𝙞𝙘𝙖 𝙙𝙚𝙡 𝙨𝙞𝙨𝙩𝙚𝙢𝙖 𝙣𝙚𝙧𝙫𝙞𝙤𝙨𝙤 𝙖𝙪𝙩𝙤𝙣𝙤𝙢𝙤
 
 El cuerpo está diseñado para poder mantener un equilibrio perfecto entre la actividad y el descanso ,esto es gracias al sistema nervioso autonomo, ya que este es el encargado de regular muchas de las funciones involuntarias que genera el organismo del cuerpo hconjuntoumano. 
 dentro de este sistema se encuentra el sistema nervioso simpático y el sistema nervioso parasimpático los cuales son dos fuerzas opuestas encargadas de trabajar en  para poder mantener el bienestar del cuerpo.
@@ -60,7 +60,8 @@ En el dominio del tiempo, los parámetros más habituales son la SDNN (desviaci�
 
 La HRV se ha establecido como una herramienta valiosa tanto en entornos clínicos como en investigaciones. Una alta variabilidad suele asociarse con un sistema cardíaco saludable y una buena capacidad de adaptación fisiológica, mientras que una baja variabilidad puede ser señal de estrés, fatiga o disfunción autonómica. Por esta razón, el análisis de HRV a partir de la señal ECG es considerado un método no invasivo y fiable para evaluar la modulación autonómica del corazón (Shaffer y Ginsberg, 2017).
 
-𝟰. 𝘿𝙞𝙖𝙜𝙧𝙖𝙢𝙖 𝙙𝙚 𝙥𝙤𝙞𝙣𝙘𝙖𝙧𝙚 𝙘𝙤𝙢𝙤 𝙝𝙚𝙧𝙧𝙖𝙢𝙞𝙚𝙣𝙩𝙖  𝙙𝙚 𝙖𝙣𝙖𝙡𝙞𝙨𝙞𝙨 𝙙𝙚 𝙡𝙖 𝙎𝙚𝙣̃𝙖𝙡 𝙍-𝙍:
+𝟰. 𝘿𝙞𝙖𝙜𝙧𝙖𝙢𝙖 𝙙𝙚 𝙥𝙤𝙞𝙣𝙘𝙖𝙧𝙚 𝙘𝙤𝙢𝙤 𝙝𝙚𝙧𝙧𝙖𝙢𝙞𝙚𝙣𝙩𝙖  𝙙𝙚 𝙖𝙣𝙖𝙡𝙞𝙨𝙞𝙨 𝙙𝙚 𝙡𝙖 𝙎𝙚𝙣̃𝙖𝙡 𝙍-𝙍
+
 Es una herramienta para el analisis no lineal de la variable de la frecuencia cardiaca , obtenida a partir de la serie R-R , la cual representa los intervalos  de tiempo entre latidos consecutivos del corazón. Estos permiten mediante una transformación matematica representar graficamente la dinamica de la señal cardiaca. En este metodo , cada intervalo R-R se representan en  función del siguiente (RRn+1) generando una serie de puntos en el plano en forma de nube. la forma y dispersion refleja las caracteristicas  dinámicas del sistema cardiovascular permitiendo identificar patronos de regularidad, variabilidad o comportamiento. Este diagrama se presenta de manera bidimencional permitiendo simplificar la dinamica temporal de la señal (como varia la señal a lo largo del tiempo - intervalos entrelatidos de un momento a otro) y visualizar con claridad los patrones generales del comportamiento autonomico. 
 Cuando se obtiene una figura en forma de elipse estrecha y alargada, se interpreta como baja variabilidad Esto implica que los intervalos entre latidos cambia muy poco, lo que refleja una menor flexibilidad del sistema nervioso autonomo para adaptarse  a las demandas internas y externas.
 Por otro lado una figura más amplia , dispersa  o cercana a una forma  circular indica una alta variabilidad cardiaca  y un mejor equilibrio entre los sistemas Simpatico y parasimpatico. 
@@ -106,6 +107,12 @@ En comparación con otros metodos lineales, el diagrama de poincare  ofrece una 
 </table>
 
 </div>
+A su vez tambien se obtienen los parámetros SD1 y SD2. El primero está asociado a las diferencias entre intervalos RR consecutivos. El segundo está relacionado con la desviación estándar de los intervalos RR.
+| **Parámetro** | **Descripción**                                          | **Relación con la variabilidad cardíaca**                     | **Significado en términos del sistema nervioso autónomo**                 |
+|---------------|----------------------------------------------------------|--------------------------------------------------------------|----------------------------------------------------------------------------|
+| **SD1**       | Desviación estándar en la dirección perpendicular a la línea de identidad. | Asociado a la variabilidad a corto plazo (fluctuaciones rápidas). | Refleja la **actividad parasimpática** (control del sistema nervioso autónomo que regula el descanso y la recuperación). |
+| **SD2**       | Desviación estándar en la dirección paralela a la línea de identidad. | Asociado a la variabilidad a largo plazo (fluctuaciones lentas). | Refleja el **equilibrio entre los sistemas simpático y parasimpático**. |
+
 
 plan de acccion 
 
