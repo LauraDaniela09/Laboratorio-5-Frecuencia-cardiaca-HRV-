@@ -65,7 +65,7 @@ La HRV se ha establecido como una herramienta valiosa tanto en entornos clínico
 <table>
   <tr>
     <td style="vertical-align: top; text-align: center;">
-      <img src="https://github.com/user-attachments/assets/e76da245-3f4a-47bf-9c52-f9a9659ae756" width="700"><br>
+      <img src="https://github.com/user-attachments/assets/e76da245-3f4a-47bf-9c52-f9a9659ae756" width="1500"><br>
       <sub><b>Foto 1.</b> Sistema nervioso simpático.[1] </sub>
     </td>
     <td style="vertical-align: top; padding-right: 15px;">
