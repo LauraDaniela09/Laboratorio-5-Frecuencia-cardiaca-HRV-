@@ -19,19 +19,24 @@ En la primera parte de la práctica se realizó una investigación teórica sobr
 
 El cuerpo está diseñado para poder mantener un equilibrio perfecto entre la actividad y el descanso ,esto es gracias al sistema nervioso autonomo, ya que este es el encargado de regular muchas de las funciones involuntarias que genera el organismo del cuerpo hconjuntoumano. 
 dentro de este sistema se encuentra el sistema nervioso simpático y el sistema nervioso parasimpático los cuales son dos fuerzas opuestas encargadas de trabajar en  para poder mantener el bienestar del cuerpo.
-
 <table>
   <tr>
-    <td>
-      <img src="https://github.com/user-attachments/assets/009c356e-df51-4e71-9e02-b85031563e74" width="900">
+    <td style="vertical-align: top; text-align: center;">
+      <img src="<img width="449" height="656" alt="image" src="https://github.com/user-attachments/assets/ba94ef5e-da04-469c-9086-6d27b4ee6567" /> " width="150"><br>
+      <sub><b>Foto 1.</b> Sistema nervioso simpático.[1] </sub>
     </td>
-    <td>
-      sistema nervioso simpático: es el encargado de la aceleración de nuestro cuerpo, es decir es el responsable de la activación de la respuesta de huida cuando una persona se enfrenta a una situación de peligro o estrés. Es importante durante el reposo ya que es clave para preparar al cuerpo durante situaciones de emergencia.
-      El sistema nervioso simpático funciona activando diversas vías donde se evidencia el aumento del ritmo cardiaco y respiratorio, presión sanguínea, dilatación de las pupilas, cambios en el flujo sanguíneo para que la sangre salga de la piel, estómago e intestinos para dirigirse hacia el cerebro, corazón, y los diferentes músculos que son necesarios para llevar a cabo esta respuesta.
+    <td style="vertical-align: top; padding-left: 15px;">
+      El sistema nervioso simpático es el encargado de la aceleración de nuestro cuerpo, es decir, 
+      es el responsable de la activación de la respuesta de huida cuando una persona se enfrenta a 
+      una situación de peligro o estrés. Es importante durante el reposo ya que prepara al cuerpo 
+      para situaciones de emergencia.  
+      <br><br>
+      Funciona activando diversas vías, donde es evidente el aumento del ritmo cardíaco y respiratorio, 
+      la presión sanguínea, la dilatación de pupilas y los cambios en el flujo sanguíneo para redirigir 
+      la sangre hacia el cerebro, el corazón y los músculos necesarios para la respuesta simpática.
     </td>
   </tr>
 </table>
-
 
 
 Sistema nervioso  parasimpatico: controla la actividad de los musculo liso cardiaco y las glandulas. Es el  encargado de la respuesta  de descanso  debido a que esta involucrado en relentizar el  ritmo cardiaco , relajar los hemisterios en el tracto gastrointestinal y urinario y aumentar la actividad glandular e  intestinal. como resultado se encuentra que el sistema parasimpatico es el encargado del almacenamiento de energía y la regulación de las funciones del cuerpo  como la digestion y la micción.
@@ -58,6 +63,7 @@ plan de acccion
 
 
 <h1 align="center"><i><b>Bibliografia</b></i></h1>
+[1](S/f). Researchgate.net. Recuperado el 17 de noviembre de 2025, de https://www.researchgate.net/figure/Figura-173-Los-sistemas-simpatico-y-parasimpatico_fig2_313160220
 
 ° Malik, M., et al. (1996). Heart rate variability: Standards of measurement, physiological interpretation, and clinical use. Circulation, 93(5), 1043–1065.
 
