@@ -11,7 +11,7 @@ Identificar los cambios en el balance autonómico a partir del análisis tempora
 <h1 align="center"><i><b>𝐏𝐚𝐫𝐭𝐞 A 𝐝𝐞𝐥 𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐨𝐫𝐢𝐨</b></i></h1>
 
 
-𝙛𝙪𝙣𝙙𝙖𝙢𝙚𝙣𝙩𝙤 𝙩𝙚𝙤𝙧𝙞𝙘𝙤 
+**PARTE A - A** 𝙛𝙪𝙣𝙙𝙖𝙢𝙚𝙣𝙩𝙤 𝙩𝙚𝙤𝙧𝙞𝙘𝙤 
 
 En la primera parte de la práctica se realizó una investigación teórica sobre la actividad simpática y parasimpática del sistema nervioso autónomo, su influencia en la frecuencia cardíaca y el concepto de variabilidad de la frecuencia cardíaca (HRV). Además, se estudió cómo la señal electrocardiográfica (ECG) permite obtener los intervalos R-R necesarios para el análisis de la HRV y se revisó el uso del diagrama de Poincaré como herramienta gráfica para evaluar el equilibrio entre la actividad simpática y parasimpáticaEn la primera parte de la práctica se realizó una investigación teórica sobre la actividad simpática y parasimpática del sistema nervioso autónomo, su influencia en la frecuencia cardíaca y el concepto de variabilidad de la frecuencia cardíaca (HRV). Además, se estudió cómo la señal electrocardiográfica (ECG) permite obtener los intervalos R-R necesarios para el análisis de la HRV y se revisó el uso del diagrama de Poincaré como herramienta gráfica para evaluar el equilibrio entre la actividad simpática y parasimpática.
 
@@ -150,13 +150,28 @@ A su vez tambien se obtienen los parámetros SD1 y SD2. El primero está asociad
 
 
 **Plan de acccion** 
+
 A continuación, se presentará el plan de acción que se implementará para abordar los puntos clave del análisis. Este plan tiene como objetivo facilitar la comprensión de los resultados y definir las siguientes acciones a seguir.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/33e4c00e-feb1-4874-a904-b7d704122998" width="300">
 </p>
 
+**PARTE A - B**
+Para esta parte del laboratorio se detallará el proceso para la adquisición de la señal ECG. Este paso incluye la selección de un sujeto de prueba, la grabación de la señal durante un período específico y la verificación de los parámetros técnicos adecuados, como la frecuencia de muestreo y los niveles de cuantificación.
 
+| **Parámetro**                       | **Valor/Registro**                     |
+|-------------------------------------|----------------------------------------|
+| **Identificación del Sujeto**       | Sujeto X                               |
+| **Fecha de Registro**               | 14 de noviembre de 2025                 |
+| **Duración Total de la Adquisición**| 4 minutos                              |
+| **Duración Fase Inmóvil y Silenciosa** | 2 minutos                             |
+| **Duración Fase de Lectura**        | 2 minutos                              |
+| **Frecuencia de Muestreo**          | 2000 Hz                                |
+| **Niveles de Cuantificación**       | 12 bits                                |
+| **Instrumento/Equipo Utilizado**    | Módulo AD8232                          |
+| **Estado del Sujeto**               | 20 años, peso 65 kg, estatura 1.58 m, femenino, en reposo y sin molestias |
+| **Observaciones**                   | Ninguna                                 |
 
 
 <h1 align="center"><i><b>Bibliografia</b></i></h1>
