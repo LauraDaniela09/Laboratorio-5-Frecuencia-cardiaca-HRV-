@@ -92,9 +92,12 @@ En comparación con otros metodos lineales, el diagrama de poincare  ofrece una 
 
 | **Tipo de Ritmo**                 | **Descripción Breve**                                                                                           | **Imagen**                                                                                         |
 |------------------------------------|------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| **Ritmo Regular**                  | Intervalos constantes entre latidos, sin variación significativa.                                                | ![Ritmo Regular](https://path/to/your/image/c15aecaf-ad06-4e6d-92f9-c16696bec2b3__1_.png)            |
-| **Ritmo Regular con Extrasístoles**| Latidos adicionales ocasionan irregularidades en los intervalos, visibles en el tacograma y diagrama de Poincaré.  | ![Ritmo con Extrasístoles](https://path/to/your/image/imagen-20230317-111957.png)                  |
-| **Fibrilación Auricular**          | Patrones caóticos e irregulares, con intervalos muy variables y dispersión de puntos en el diagrama de Poincaré. | ![Fibrilación Auricular](https://path/to/your/image/9bcad3e4-c460-4343-9a4a-d8663c8e4c7b.png)        |
+| **Ritmo Regular**                  | Intervalos constantes entre latidos, sin variación significativa.                                                | <img width="2300" height="1470" alt="image" src="https://github.com/user-attachments/assets/b7ea282d-1fea-4d44-bc72-a54c5e601a19" />
+   |
+| **Ritmo Regular con Extrasístoles**| Latidos adicionales ocasionan irregularidades en los intervalos, visibles en el tacograma y diagrama de Poincaré.  | <img width="2578" height="1646" alt="image" src="https://github.com/user-attachments/assets/bee8d739-42df-4aa0-8e11-220593a7bb77" />
+ |
+| **Fibrilación Auricular**          | Patrones caóticos e irregulares, con intervalos muy variables y dispersión de puntos en el diagrama de Poincaré. |   <img width="2560" height="1642" alt="image" src="https://github.com/user-attachments/assets/4d3436bc-ed4f-4ebc-860f-13a8c78edac2" />
+ |
 
 
 
