@@ -91,12 +91,9 @@ En comparación con otros metodos lineales, el diagrama de poincare  ofrece una 
 **ejemplos relacionados**
 | **Tipo de Ritmo**                 | **Descripción Breve**                                                                                           | **Imagen**                                                                                         |
 |------------------------------------|------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| **Ritmo Regular**                  | Intervalos constantes entre latidos, sin variación significativa.                                                | <img width="300" height="300" alt="Ritmo Regular" src="https://github.com/user-attachments/assets/b7ea282d-1fea-4d44-bc72-a54c5e601a19" /> 
-<sub><b>imagen 5.</b> diagrama y graficas en ritmos regular(normal) [8]</sub>|
-| **Ritmo Regular con Extrasístoles**| Latidos adicionales ocasionan irregularidades en los intervalos, visibles en el tacograma y diagrama de Poincaré.  | <img width="300" height="300" alt="Ritmo con Extrasístoles" src="https://github.com/user-attachments/assets/bee8d739-42df-4aa0-8e11-220593a7bb77" />
-<sub><b>imagen 6.</b> diagrama y graficas en ritmo regular latidos ectopicos [8]</sub>| |
-| **Fibrilación Auricular**          | Patrones caóticos e irregulares, con intervalos muy variables y dispersión de puntos en el diagrama de Poincaré. | <img width="300" height="300" alt="Fibrilación Auricular" src="https://github.com/user-attachments/assets/4d3436bc-ed4f-4ebc-860f-13a8c78edac2" /> 
-<sub><b>imagen 7.</b> diagrama y graficas en fibrilacion auricular [8]</sub>| |
+| **Ritmo Regular**                  | Intervalos constantes entre latidos, sin variación significativa.                                                | <img width="300" height="300" alt="Ritmo Regular" src="https://github.com/user-attachments/assets/b7ea282d-1fea-4d44-bc72-a54c5e601a19" />   <sub><b>imagen 5.</b> diagrama y graficas en ritmos regular(normal) [9]</sub>|
+| **Ritmo Regular con Extrasístoles**| Latidos adicionales ocasionan irregularidades en los intervalos, visibles en el tacograma y diagrama de Poincaré.  | <img width="300" height="300" alt="Ritmo con Extrasístoles" src="https://github.com/user-attachments/assets/bee8d739-42df-4aa0-8e11-220593a7bb77" />  <sub><b>imagen 6.</b> diagrama y graficas en ritmo regular latidos ectopicos [9]</sub>| |
+| **Fibrilación Auricular**          | Patrones caóticos e irregulares, con intervalos muy variables y dispersión de puntos en el diagrama de Poincaré. | <img width="300" height="300" alt="Fibrilación Auricular" src="https://github.com/user-attachments/assets/4d3436bc-ed4f-4ebc-860f-13a8c78edac2" />   <sub><b>imagen 7.</b> diagrama y graficas en fibrilacion auricular [9]</sub>| |
 
 
 
@@ -168,7 +165,7 @@ A su vez tambien se obtienen los parámetros SD1 y SD2. El primero está asociad
 [6]Hrv_Admin. (s. f.). Understanding the Poincaré plot – HRV Health. https://hrvhealth.org/blog/?p=124
 [7] CH González Obregón Upc.edu.(2002), de https://upcommons.upc.edu/server/api/core/bitstreams/eafd6950-b60c-462d-8eeb-1c6e1ee97891/content
 [8]Researchgate.net.de https://www.researchgate.net/figure/Figura-94-Diagrama-de-Poincare-de-una-serie-RR_fig17_39569851
-
+[9]Academia FibriCheck(2023) de https://academy.fibricheck.com/hc/en-be/articles/9020344305564-Chapter-8-Differentiating-regular-and-irregular-PPG-recordings
 ° Malik, M., et al. (1996). Heart rate variability: Standards of measurement, physiological interpretation, and clinical use. Circulation, 93(5), 1043–1065.
 
 ° Shaffer, F., & Ginsberg, J. P. (2017). An overview of heart rate variability metrics and norms. Frontiers in Public Health, 5, 258.
