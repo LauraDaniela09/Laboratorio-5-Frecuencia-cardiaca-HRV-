@@ -108,6 +108,7 @@ En comparación con otros metodos lineales, el diagrama de poincare  ofrece una 
 
 </div>
 A su vez tambien se obtienen los parámetros SD1 y SD2. El primero está asociado a las diferencias entre intervalos RR consecutivos. El segundo está relacionado con la desviación estándar de los intervalos RR.
+
 | **Parámetro** | **Descripción**                                          | **Relación con la variabilidad cardíaca**                     | **Significado en términos del sistema nervioso autónomo**                 |
 |---------------|----------------------------------------------------------|--------------------------------------------------------------|----------------------------------------------------------------------------|
 | **SD1**       | Desviación estándar en la dirección perpendicular a la línea de identidad. | Asociado a la variabilidad a corto plazo (fluctuaciones rápidas). | Refleja la **actividad parasimpática** (control del sistema nervioso autónomo que regula el descanso y la recuperación). |
