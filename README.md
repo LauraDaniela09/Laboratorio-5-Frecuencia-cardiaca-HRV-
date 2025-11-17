@@ -97,7 +97,7 @@ En comparación con otros metodos lineales, el diagrama de poincare  ofrece una 
 
 
 
-
+**variabilidad e intereptacion del diagrama de poincare**
 
 <div align="center">
 
