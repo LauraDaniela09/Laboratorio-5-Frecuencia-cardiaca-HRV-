@@ -61,6 +61,19 @@ En el dominio del tiempo, los parámetros más habituales son la SDNN (desviaci�
 La HRV se ha establecido como una herramienta valiosa tanto en entornos clínicos como en investigaciones. Una alta variabilidad suele asociarse con un sistema cardíaco saludable y una buena capacidad de adaptación fisiológica, mientras que una baja variabilidad puede ser señal de estrés, fatiga o disfunción autonómica. Por esta razón, el análisis de HRV a partir de la señal ECG es considerado un método no invasivo y fiable para evaluar la modulación autonómica del corazón (Shaffer y Ginsberg, 2017).
 
 𝟰. 𝘿𝙞𝙖𝙜𝙧𝙖𝙢𝙖 𝙙𝙚 𝙥𝙤𝙞𝙣𝙘𝙖𝙧𝙚 𝙘𝙤𝙢𝙤 𝙝𝙚𝙧𝙧𝙖𝙢𝙞𝙚𝙣𝙩𝙖  𝙙𝙚 𝙖𝙣𝙖𝙡𝙞𝙨𝙞𝙨 𝙙𝙚 𝙡𝙖 𝙎𝙚𝙣̃𝙖𝙡 𝙍-𝙍:
+Es una herramienta para el analisis no lineal de la variable de la frecuencia cardiaca , obtenida a partir de la serie R-R , la cual representa los intervalos  de tiempo entre latidos consecutivos del corazón. Estos permiten mediante una transformación matematica representar graficamente la dinamica de la señal cardiaca. En este metodo , cada intervalo R-R se representan en  función del siguiente (RRn+1) generando una serie de puntos en el plano en forma de nube. la forma y dispersion refleja las caracteristicas  dinámicas del sistema cardiovascular permitiendo identificar patronos de regularidad, variabilidad o comportamiento. Este diagrama se presenta de manera bidimencional permitiendo simplificar la dinamica temporal de la señal (como varia la señal a lo largo del tiempo - intervalos entrelatidos de un momento a otro) y visualizar con claridad los patrones generales del comportamiento autonomico. 
+Cuando se obtiene una figura en forma de elipse estrecha y alargada, se interpreta como baja variabilidad Esto implica que los intervalos entre latidos cambia muy poco, lo que refleja una menor flexibilidad del sistema nervioso autonomo para adaptarse  a las demandas internas y externas.
+Por otro lado una figura más amplia , dispersa  o cercana a una forma  circular indica una alta variabilidad cardiaca  y un mejor equilibrio entre los sistemas Simpatico y parasimpatico. 
+En comparación con otros metodos lineales, el diagrama de poincare  ofrece una vision topologica y geometrica de la dinamica cardiaca, permitiendo captar comportamientos no lineales que no se evidenciar mediante estadisticas convencionales. Por ello, esta herramienta se utiliza frecuentemente en el estudio de la serie R-R  para evaluar el control autonomico del corazón en condicion de repaso  estres o enfermedad. 
+### Interpretación del Diagrama de Poincaré
+
+| **Forma del Diagrama**        | **Nivel de Variabilidad** | **Sistema Nervioso Predominante**      | **Interpretación Fisiológica**                                                                 |
+|-------------------------------|---------------------------|-----------------------------------------|--------------------------------------------------------------------------------------------------|
+| **Elipse estrecha y alargada** | Baja variabilidad         | Predominio simpático                    | El corazón late de manera muy regular. Menor flexibilidad para adaptarse a cambios; posible estrés o rigidez autonómica. |
+| **Elipse amplia**              | Variabilidad moderada     | Equilibrio simpático-parasimpático      | Buena adaptación general, aunque con algo de rigidez. Refleja un control autónomo aceptable.     |
+| **Forma circular o muy dispersa** | Alta variabilidad         | Fuerte equilibrio simpático-parasimpático | El corazón se adapta muy bien a cambios. Alta flexibilidad fisiológica; buen estado autonómico. |
+| **Puntos irregulares o dispersión caótica** | Variabilidad alterada o baja | Desbalance autónomo                     | Posible disfunción del control cardíaco. Puede reflejar estrés alto, fatiga o condiciones patológicas. |
+
 
 plan de acccion 
 
