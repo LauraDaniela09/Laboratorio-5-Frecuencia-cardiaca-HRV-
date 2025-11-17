@@ -12,6 +12,7 @@ Identificar los cambios en el balance autonómico a partir del análisis tempora
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
+from scipy.signal import find_peaks
 ```
 
 <h1 align="center"><i><b>𝐏𝐚𝐫𝐭𝐞 A 𝐝𝐞𝐥 𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐨𝐫𝐢𝐨</b></i></h1>
@@ -287,15 +288,40 @@ plt.grid(True)
 plt.legend()
 plt.show()
 ```
-Este código usa NumPy para cargar los datos del archivo .txt con np.loadtxt() (carga el tiempo y la señal ECG desde el archivo). Luego, usa Matplotlib para graficar la señal con plt.plot(), donde se configura el eje x como el tiempo y el eje y como la señal ECG. Se añaden etiquetas con plt.xlabel() y plt.ylabel(), se establece el título con plt.title(), y se activa la cuadrícula con plt.grid() para mejorar la visualización.
+Este código usa `NumPy` para cargar los datos del archivo `.txt` con `np.loadtxt()` (carga el tiempo y la señal ECG desde el archivo). Luego, usa `Matplotlib` para graficar la señal con `plt.plot()`, donde se configura el eje x como el tiempo y el eje y como la señal ECG. Se añaden etiquetas con `plt.xlabel()` y `plt.ylabel()`, se establece el título con `plt.title()`, y se activa la cuadrícula con `plt.grid()` para mejorar la visualización.
 
 **resultado** 
 <p align="center">
 <img width="857" height="547" alt="image" src="https://github.com/user-attachments/assets/4db367e2-a42f-417b-b372-c3394e003a06" />
 </p>
 
+```python
+data = np.loadtxt("/content/1ECGSOFICOMPLETO.txt", delimiter=None)
 
+t = data[:, 0]    
+ppg = data[:, 1]  
 
+peaks, _ = find_peaks(ppg, height=np.mean(ppg), distance=50)
+
+plt.figure(figsize=(15, 4))
+plt.plot(t, ppg, linewidth=1, color="#003366", alpha=0.8)
+plt.scatter(t[peaks], ppg[peaks], color="#FF00FF", s=30, label="L")
+
+plt.title("PPG signal")
+plt.xlabel("Tiempo (s)")
+plt.ylabel("Amplitud")
+plt.grid(True)
+plt.legend()
+plt.tight_layout()
+plt.show()
+```
+El código carga el archivo `TXT` con `np.loadtxt`, toma la primera columna como tiempo y la segunda como la señal PPG; luego find_peaks detecta los picos que representan los latidos, y finalmente `plt.plot` grafica la señal en azul oscuro mientras `plt.scatter` marca los picos en fucsia, añadiendo título, ejes y cuadrícula para visualizar mejor. La señal PPG (fotopletismografía) es una señal óptica que muestra cómo cambia el volumen de sangre en cada latido del corazón.
+
+**resultado**
+
+<p align="center">
+<img width="1000" height="390" alt="image" src="https://github.com/user-attachments/assets/93410830-2ef8-4886-991e-3f1585ddd171" />
+</p>
 
 
 
