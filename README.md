@@ -26,7 +26,7 @@ dentro de este sistema se encuentra el sistema nervioso simpático y el sistema 
       <sub><b>Foto 1.</b> Sistema nervioso simpático.[1] </sub>
     </td>
     <td style="vertical-align: top; padding-left: 15px;">
-sistema nervioso simpático: es el encargado de la aceleración de nuestro cuerpo, es decir es el responsable de la activación de la respuesta de huida cuando una persona se enfrenta a una situación de peligro o estrés .Es importante durante el reposo ya que es clave para preparar al cuerpo durante situaciones de emergencia .
+sistema nervioso simpático: es el encargado de la aceleración de nuestro cuerpo, es decir es el responsable de la activación de la respuesta de huida cuando una persona se enfrenta a una situación de peligro o estrés .Es importante durante el reposo ya que es clave para preparar al cuerpo durante situaciones de emergencia .[2]
 El sistema nervioso Simpatico funciona activando diversas vias donde se es evidente el aumento del ritmo cardiaco y respiratorio, presion sanguinea  dilatación de las pupilan,  cambios en el flujo sanguineo para que la sangre salga de la pie, estomago e intestinos para dirigirse hacia el cerebro,  corazón . y los diferentes musculos que sean  necesarios para llevar a cabo esta respuesta ante la actividad Simpatica.
     </td>
   </tr>
@@ -41,7 +41,7 @@ El sistema nervioso Simpatico funciona activando diversas vias donde se es evide
       <sub><b>Foto 1.</b> Sistema nervioso parasimpático.[1] </sub>
     </td>
     <td style="vertical-align: top; padding-left: 15px;">
-Sistema nervioso  parasimpatico: controla la actividad de los musculo liso cardiaco y las glandulas. Es el  encargado de la respuesta  de descanso  debido a que esta involucrado en relentizar el  ritmo cardiaco , relajar los hemisterios en el tracto gastrointestinal y urinario y aumentar la actividad glandular e  intestinal. como resultado se encuentra que el sistema parasimpatico es el encargado del almacenamiento de energía y la regulación de las funciones del cuerpo  como la digestion y la micción.
+Sistema nervioso  parasimpatico: controla la actividad de los musculo liso cardiaco y las glandulas. Es el  encargado de la respuesta  de descanso  debido a que esta involucrado en relentizar el  ritmo cardiaco , relajar los hemisterios en el tracto gastrointestinal y urinario y aumentar la actividad glandular e  intestinal.[3]como resultado se encuentra que el sistema parasimpatico es el encargado del almacenamiento de energía y la regulación de las funciones del cuerpo  como la digestion y la micción.
     </td>
   </tr>
 </table>
@@ -71,7 +71,8 @@ plan de acccion
 
 <h1 align="center"><i><b>Bibliografia</b></i></h1>
 [1](S/f). Researchgate.net. Recuperado el 17 de noviembre de 2025, de https://www.researchgate.net/figure/Figura-173-Los-sistemas-simpatico-y-parasimpatico_fig2_313160220
-
+[2]Sistema nervioso simpático. (2023, 30 octubre). Kenhub. https://www.kenhub.com/es/library/anatomia-es/sistema-nervioso-simpatico
+[3]Sistema nervioso parasimpático. (2023, 30 octubre). Kenhub. https://www.kenhub.com/es/library/anatomia-es/sistema-nervioso-parasimpatico
 ° Malik, M., et al. (1996). Heart rate variability: Standards of measurement, physiological interpretation, and clinical use. Circulation, 93(5), 1043–1065.
 
 ° Shaffer, F., & Ginsberg, J. P. (2017). An overview of heart rate variability metrics and norms. Frontiers in Public Health, 5, 258.
