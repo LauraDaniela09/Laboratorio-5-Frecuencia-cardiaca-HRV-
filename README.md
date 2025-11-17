@@ -305,7 +305,7 @@ peaks, _ = find_peaks(ppg, height=np.mean(ppg), distance=50)
 
 plt.figure(figsize=(15, 4))
 plt.plot(t, ppg, linewidth=1, color="#003366", alpha=0.8)
-plt.scatter(t[peaks], ppg[peaks], color="#FF00FF", s=30, label="L")
+plt.scatter(t[peaks], ppg[peaks], color="#FF00FF", s=30, label="R")
 
 plt.title("PPG signal")
 plt.xlabel("Tiempo (s)")
@@ -320,7 +320,7 @@ El código carga el archivo `TXT` con `np.loadtxt`, toma la primera columna como
 **resultado**
 
 <p align="center">
-<img width="1000" height="390" alt="image" src="https://github.com/user-attachments/assets/93410830-2ef8-4886-991e-3f1585ddd171" />
+<img width="1000" height="390" alt="image" src="https://github.com/user-attachments/assets/fa381569-4e3d-4105-83f3-1185450afa8d" />
 </p>
 
 
