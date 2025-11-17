@@ -1,4 +1,4 @@
-# Laboratorio-5-Frecuencia-cardiaca-HRV
+# Laboratorio-5-Frecuencia-cardiaca-HRV y balance atonomico
 𝙞𝙣𝙩𝙧𝙤𝙙𝙪𝙘𝙘𝙞ó𝙣
 
 La variabilidad frecuenciaacardíacadíaca (HRV) es un parámetro fisiológico que permite evaluar el equilibrio entre las ramas simpática y parasimpádela del sistema nervioso autónomo a través del análisis de los intervalos R-R obtenidos de la señal electrocardiográfica (ECG). Este parámetro es una herramienta fundamental en el estudio de la regulación cardíaca, ya que refleja la capacidad del corazón para adaptarse a diferentes estados fisiológicos, como el reposo o la actividad mental. En esta práctica se analizó la HRV mediante técnicaorganismodigital de señales, utilizando herramientas computacionales como Python para el filtrado, segmentación y análisis de los datos, con el fin de comprender cómo las variaciones en la frecuencia cardíaca pueden indicar cambios en la actividad autonómica del organismo.
@@ -172,6 +172,117 @@ Para esta parte del laboratorio se detallará el proceso para la adquisición de
 | **Instrumento/Equipo Utilizado**    | Módulo AD8232                          |
 | **Estado del Sujeto**               | 20 años, peso 65 kg, estatura 1.58 m, femenino, en reposo y sin molestias |
 | **Observaciones**                   | Ninguna                                 |
+
+```python
+import nidaqmx
+from nidaqmx.constants import AcquisitionType
+import matplotlib.pyplot as plt
+import numpy as np
+from scipy.signal import butter, filtfilt, iirnotch
+
+# ------------------ Parámetros ------------------
+fs = 2000
+canal = "Dev5/ai0"
+N = fs * 1      # ventana de 1 segundo
+senal_total = []
+
+# ---------- FILTRO PASA-BANDA 1–40 Hz ----------
+lowcut_freq = 1.0  # Hz
+highcut_freq = 40.0 # Hz
+b_bp, a_bp = butter(4, [lowcut_freq/(fs/2), highcut_freq/(fs/2)], btype='bandpass')
+
+# ---------- FILTRO NOTCH 60 Hz ----------
+b_notch, a_notch = iirnotch(60/(fs/2), 30)
+
+def aplicar_filtro(x):
+    # PASA-BANDA
+    x = filtfilt(b_bp, a_bp, x)
+
+    # NOTCH
+    x = filtfilt(b_notch, a_notch, x)
+
+    return x
+
+# ---------- Ventana gráfica externa ----------
+plt.ion()   # modo interactivo
+fig, ax = plt.subplots()
+
+xdata = np.arange(N)
+ydata = np.zeros(N)
+
+linea, = ax.plot(xdata, ydata)
+ax.set_ylim(-1, 1)
+ax.set_xlim(0, N)
+ax.grid(True)
+ax.set_title("ECG en tiempo real")
+ax.set_xlabel("Muestra")
+ax.set_ylabel("Voltaje (V)")
+
+# --------------- ADQUISICIÓN DAQ ---------------
+with nidaqmx.Task() as task:
+    task.ai_channels.add_ai_voltage_chan(canal)
+    task.timing.cfg_samp_clk_timing(fs, sample_mode=AcquisitionType.CONTINUOUS)
+
+    print("Adquiriendo... cerrar ventana o Ctrl+C para detener.")
+
+    try:
+        while plt.fignum_exists(fig.number):
+            # Leer 1 segundo
+            bloque = task.read(number_of_samples_per_channel=N)
+            bloque = np.array(bloque, dtype=float)
+
+            # Filtrar
+            bloque = aplicar_filtro(bloque)
+
+            # Guardar
+            senal_total.extend(bloque)
+
+            # Actualizar gráfica
+            linea.set_ydata(bloque)
+            ax.set_ylim(bloque.min()*1.2, bloque.max()*1.2)
+
+            fig.canvas.draw()
+            fig.canvas.flush_events()
+
+    except KeyboardInterrupt:
+        print("Adquisición detenida manualmente.")
+
+# ---------- Post-procesamiento ----------
+senal_total = np.array(senal_total)
+t = np.arange(len(senal_total)) / fs
+
+plt.ioff()
+plt.figure()
+plt.plot(t, senal_total)
+plt.title("ECG completo filtrado")
+plt.xlabel("Tiempo (s)")
+plt.ylabel("Voltaje (V)")
+plt.grid(True)
+plt.show()
+
+# Guardar archivo
+np.savetxt("1ECGANTOCOMPLETO.txt", np.column_stack((t, senal_total)))
+print("Guardado como 1ECGANTOCOMPLETO.txt")
+```
+
+Este código adquiere señales de un electrocardiograma (ECG) en tiempo real utilizando un dispositivo de adquisición de datos (DAQ) con una frecuencia de muestreo de 2000 Hz. La señal se filtra en dos etapas: primero con un filtro pasa-banda (1-40 Hz) para eliminar el ruido de baja y alta frecuencia, y luego con un filtro notch a 60 Hz para eliminar la interferencia de la red eléctrica. La señal filtrada se actualiza en tiempo real en un gráfico interactivo, y al finalizar la adquisición, se guarda la señal completa en un archivo de texto. La adquisición continúa hasta que el usuario la detiene manualmente.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <h1 align="center"><i><b>Bibliografia</b></i></h1>
