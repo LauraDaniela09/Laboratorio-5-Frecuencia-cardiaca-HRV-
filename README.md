@@ -32,7 +32,10 @@ La HRV se ha establecido como una herramienta valiosa tanto en entornos clínico
 𝟰. 𝘿𝙞𝙖𝙜𝙧𝙖𝙢𝙖 𝙙𝙚 𝙥𝙤𝙞𝙣𝙘𝙖𝙧𝙚 𝙘𝙤𝙢𝙤 𝙝𝙚𝙧𝙧𝙖𝙢𝙞𝙚𝙣𝙩𝙖  𝙙𝙚 𝙖𝙣𝙖𝙡𝙞𝙨𝙞𝙨 𝙙𝙚 𝙡𝙖 𝙎𝙚𝙣̃𝙖𝙡 𝙍-𝙍:
 
 plan de acccion 
-![_Diagrama de flujo](https://github.com/user-attachments/assets/28de5289-624f-4c82-b8f1-aecc9fcf462a)
+
+<p align="center">
+  <img src="![_Diagrama de flujo](https://github.com/user-attachments/assets/a026edb5-121d-4507-bac4-e6e9d05238b0)" width="350">
+</p>
 
 
 <h1 align="center"><i><b>Bibliografia</b></i></h1>
