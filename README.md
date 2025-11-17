@@ -66,7 +66,7 @@ La HRV se ha establecido como una herramienta valiosa tanto en entornos clínico
 <table>
   <tr>
     <td style="vertical-align: top; text-align: center;">
-      <img src="https://github.com/user-attachments/assets/9eca6e8e-34cd-42ee-829f-59da0bf06796" width="1500"><br>
+      <img src="https://github.com/user-attachments/assets/9eca6e8e-34cd-42ee-829f-59da0bf06796" width="500"><br>
       <sub><b>imagen 3.</b> diagrama de poincare.[1] </sub>
     </td>
     <td style="vertical-align: top; padding-right: 15px;">
