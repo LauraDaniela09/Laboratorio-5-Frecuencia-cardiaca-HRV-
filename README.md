@@ -8,6 +8,12 @@ La variabilidad frecuenciaacardíacadíaca (HRV) es un parámetro fisiológico q
 Identificar los cambios en el balance autonómico a partir del análisis temporal de la variabilidad de la frecuencia cardíaca (HRV), aplicando técnicas de procesamiento digital de señales para el filtrado y estudio de los intervalos R-R, y comparando la respuesta cardíaca en condiciones de reposo y durante la lectura en voz alta, con el propósito de relacionar la actividad simpática y parasimpática en ambos estados fisiológicos.
 
 𝙞𝙢𝙥𝙤𝙧𝙩𝙖𝙘𝙞ó𝙣 𝙙𝙚 𝙡𝙞𝙗𝙧𝙚𝙧𝙞𝙖𝙨
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+```
+
 <h1 align="center"><i><b>𝐏𝐚𝐫𝐭𝐞 A 𝐝𝐞𝐥 𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐨𝐫𝐢𝐨</b></i></h1>
 
 
@@ -267,7 +273,23 @@ print("Guardado como 1ECGANTOCOMPLETO.txt")
 
 Este código adquiere señales de un electrocardiograma (ECG) en tiempo real utilizando un dispositivo de adquisición de datos (DAQ) con una frecuencia de muestreo de 2000 Hz. La señal se filtra en dos etapas: primero con un filtro pasa-banda (1-40 Hz) para eliminar el ruido de baja y alta frecuencia, y luego con un filtro notch a 60 Hz para eliminar la interferencia de la red eléctrica. La señal filtrada se actualiza en tiempo real en un gráfico interactivo, y al finalizar la adquisición, se guarda la señal completa en un archivo de texto. La adquisición continúa hasta que el usuario la detiene manualmente.
 
+```python
+data = np.loadtxt('/content/1ECGSOFICOMPLETO.txt')
+t = data[:, 0]  # Tiempo (en segundos)
+senal = data[:, 1]  # Señal ECG
 
+plt.figure(figsize=(10, 6))
+plt.plot(t, senal, label="ECG Filtrado")
+plt.title("ECG Adquirido desde DAQ")
+plt.xlabel("Tiempo (s)")
+plt.ylabel("Voltaje (V)")
+plt.grid(True)
+plt.legend()
+plt.show()
+```
+
+
+Este código usa NumPy para cargar los datos del archivo .txt con np.loadtxt() (carga el tiempo y la señal ECG desde el archivo). Luego, usa Matplotlib para graficar la señal con plt.plot(), donde se configura el eje x como el tiempo y el eje y como la señal ECG. Se añaden etiquetas con plt.xlabel() y plt.ylabel(), se establece el título con plt.title(), y se activa la cuadrícula con plt.grid() para mejorar la visualización.
 
 
 
