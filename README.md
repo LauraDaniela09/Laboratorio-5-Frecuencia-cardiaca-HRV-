@@ -83,7 +83,7 @@ En comparación con otros metodos lineales, el diagrama de poincare  ofrece una 
     </td>
     <td style="vertical-align: top; text-align: center;">
       <img src="https://github.com/user-attachments/assets/e76da245-3f4a-47bf-9c52-f9a9659ae756" width="1500"><br>
-      <sub><b>Foto 1.</b> Sistema nervioso simpático.[1]</sub>
+      <sub><b>imagen 4.</b> diagrama de poincare del corazon [8]</sub>
     </td>
   </tr>
 </table>
@@ -91,7 +91,7 @@ En comparación con otros metodos lineales, el diagrama de poincare  ofrece una 
 **ejemplos relacionados**
 | **Tipo de Ritmo**                 | **Descripción Breve**                                                                                           | **Imagen**                                                                                         |
 |------------------------------------|------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| **Ritmo Regular**                  | Intervalos constantes entre latidos, sin variación significativa.                                                | <img width="300" height="300" alt="Ritmo Regular" src="https://github.com/user-attachments/assets/b7ea282d-1fea-4d44-bc72-a54c5e601a19" /> |
+| **Ritmo Regular**                  | Intervalos constantes entre latidos, sin variación significativa.                                                | <img width="300" height="300" alt="Ritmo Regular" src="https://github.com/user-attachments/assets/b7ea282d-1fea-4d44-bc72-a54c5e601a19" /> <sub><b>imagen 4.</b> diagrama de poincare del corazon [8]</sub>|
 | **Ritmo Regular con Extrasístoles**| Latidos adicionales ocasionan irregularidades en los intervalos, visibles en el tacograma y diagrama de Poincaré.  | <img width="300" height="300" alt="Ritmo con Extrasístoles" src="https://github.com/user-attachments/assets/bee8d739-42df-4aa0-8e11-220593a7bb77" /> |
 | **Fibrilación Auricular**          | Patrones caóticos e irregulares, con intervalos muy variables y dispersión de puntos en el diagrama de Poincaré. | <img width="300" height="300" alt="Fibrilación Auricular" src="https://github.com/user-attachments/assets/4d3436bc-ed4f-4ebc-860f-13a8c78edac2" /> |
 
@@ -164,7 +164,7 @@ A su vez tambien se obtienen los parámetros SD1 y SD2. El primero está asociad
 [5]Researchgate.net.de https://www.researchgate.net/figure/Figura-95-Diagramas-de-Poincare-y-parametros-tipicos-calculados-a-partir-de-la-senal-ECG_fig18_39569851
 [6]Hrv_Admin. (s. f.). Understanding the Poincaré plot – HRV Health. https://hrvhealth.org/blog/?p=124
 [7] CH González Obregón Upc.edu.(2002), de https://upcommons.upc.edu/server/api/core/bitstreams/eafd6950-b60c-462d-8eeb-1c6e1ee97891/content
-
+[8]Researchgate.net.de https://www.researchgate.net/figure/Figura-94-Diagrama-de-Poincare-de-una-serie-RR_fig17_39569851
 
 ° Malik, M., et al. (1996). Heart rate variability: Standards of measurement, physiological interpretation, and clinical use. Circulation, 93(5), 1043–1065.
 
