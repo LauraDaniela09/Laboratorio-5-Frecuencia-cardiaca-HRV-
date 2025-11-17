@@ -23,7 +23,7 @@ dentro de este sistema se encuentra el sistema nervioso simpático y el sistema 
 <table>
   <tr>
     <td>
-      <img src="https://github.com/user-attachments/assets/60d2ca13-4694-403c-b0ad-36304053e219" width="900">
+      <img src="https://github.com/user-attachments/assets/009c356e-df51-4e71-9e02-b85031563e74" width="900">
     </td>
     <td>
       sistema nervioso simpático: es el encargado de la aceleración de nuestro cuerpo, es decir es el responsable de la activación de la respuesta de huida cuando una persona se enfrenta a una situación de peligro o estrés. Es importante durante el reposo ya que es clave para preparar al cuerpo durante situaciones de emergencia.
