@@ -592,12 +592,102 @@ print("RR medios Segmento 2:", np.mean(RR2), "s")
 <img width="1167" height="470" alt="image" src="https://github.com/user-attachments/assets/5ebb2414-13bb-4c4b-b639-78d8da52380b" />
 <img width="1156" height="393" alt="image" src="https://github.com/user-attachments/assets/23a38973-c798-4b83-9ac7-c5bd6f26b645" />
 
+
+**Parte C**
+```python
 Número de picos R en Segmento 1: 284
 RR medios Segmento 1: 0.42276855123674906 s
 Número de picos R en Segmento 2: 300
 RR medios Segmento 2: 0.4007374581939799 s
 
 
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.signal import butter, filtfilt, find_peaks
+
+# ============================================
+# 1. Cargar señal
+# ============================================
+data = np.loadtxt('/content/1ECGSOFICOMPLETO.txt')
+t = data[:, 0]
+senal = data[:, 1]
+
+# Frecuencia de muestreo
+fs = 1 / (t[1] - t[0])
+
+# ============================================
+# 2. División en segmentos
+# ============================================
+t_inicio_1 = 0
+t_fin_1 = 2 * 60
+t_inicio_2 = 2 * 60
+t_fin_2 = 4 * 60
+
+mask1 = (t >= t_inicio_1) & (t < t_fin_1)
+mask2 = (t >= t_inicio_2) & (t < t_fin_2)
+
+t_seg1 = t[mask1]
+senal_seg1 = senal[mask1]
+
+t_seg2 = t[mask2]
+senal_seg2 = senal[mask2]
+
+# ============================================
+# 3. Filtrado pasa-banda para resaltar QRS
+# ============================================
+def butter_bandpass(lowcut, highcut, fs, order=3):
+    nyq = 0.5 * fs
+    low = lowcut / nyq
+    high = highcut / nyq
+    b, a = butter(order, [low, high], btype='band')
+    return b, a
+
+def filtrar_ecg(signal, fs):
+    b, a = butter_bandpass(5, 15, fs)
+    return filtfilt(b, a, signal)
+
+f_seg1 = filtrar_ecg(senal_seg1, fs)
+f_seg2 = filtrar_ecg(senal_seg2, fs)
+
+# ============================================
+# 4. Detección de picos R robusta
+# ============================================
+def detectar_picos(signal_filtrada, t_segmento):
+    peaks, _ = find_peaks(signal_filtrada,
+                          height=0.35 * np.max(signal_filtrada),   # umbral fuerte
+                          distance=0.25 * fs,                       # evita dobles picos
+                          prominence=0.20 * np.max(signal_filtrada)) # asegura R reales
+    t_R = t_segmento[peaks]
+    RR = np.diff(t_R)
+
+    # limpieza de RR fisiológicos
+    RR = RR[(RR > 0.25) & (RR < 1.5)]
+
+    return t_R, RR
+
+t_R1, RR1 = detectar_picos(f_seg1, t_seg1)
+t_R2, RR2 = detectar_picos(f_seg2, t_seg2)
+
+# ============================================
+# 5. Diagramas de Poincaré
+# ============================================
+def plot_poincare(RR, titulo, color):
+    RR_x = RR[:-1]
+    RR_y = RR[1:]
+
+    plt.figure(figsize=(6, 6))
+    plt.scatter(RR_x, RR_y, s=12, alpha=0.6, color=color)
+    plt.title(titulo)
+    plt.xlabel("RR(n) [s]")
+    plt.ylabel("RR(n+1) [s]")
+    plt.grid(True)
+    plt.axis("equal")
+    plt.show()
+
+plot_poincare(RR1, "Poincaré – Segmento 1 (0–2 min)", "#7B68EE")
+plot_poincare(RR2, "Poincaré – Segmento 2 (2–4 min)", "#FF69B4")
+```
+<img width="545" height="548" alt="image" src="https://github.com/user-attachments/assets/75c20da8-6875-42d5-8f6d-9e722956b7d2" />
 
 
 
