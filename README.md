@@ -331,6 +331,10 @@ El código carga el archivo `TXT` con `np.loadtxt`, toma la primera columna como
 <img width="1000" height="390" alt="image" src="https://github.com/user-attachments/assets/fa381569-4e3d-4105-83f3-1185450afa8d" />
 </p>
 
+Implementar el filtro a la señal
+![Imagen de WhatsApp 2025-11-18 a las 22 11 30_45a80a54](https://github.com/user-attachments/assets/1fe04715-2523-4ad0-9ebc-7d0e488cd9bc)
+![Imagen de WhatsApp 2025-11-18 a las 22 11 31_4c69e59f](https://github.com/user-attachments/assets/aebd81f4-960c-4aa4-8da2-08748ca8fa6f)
+
 
 
 
