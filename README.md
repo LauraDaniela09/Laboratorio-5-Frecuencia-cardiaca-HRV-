@@ -331,6 +331,8 @@ El código carga el archivo `TXT` con `np.loadtxt`, toma la primera columna como
 <img width="1000" height="390" alt="image" src="https://github.com/user-attachments/assets/fa381569-4e3d-4105-83f3-1185450afa8d" />
 </p>
 
+<h1 align="center"><i><b>𝐏𝐚𝐫𝐭𝐞 B 𝐝𝐞𝐥 𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐨𝐫𝐢𝐨</b></i></h1>
+
 **Implementar el filtro a la señal**
 ![Imagen de WhatsApp 2025-11-18 a las 22 11 30_45a80a54](https://github.com/user-attachments/assets/1fe04715-2523-4ad0-9ebc-7d0e488cd9bc)
 ![Imagen de WhatsApp 2025-11-18 a las 22 11 31_4c69e59f](https://github.com/user-attachments/assets/aebd81f4-960c-4aa4-8da2-08748ca8fa6f)
@@ -593,7 +595,8 @@ print("RR medios Segmento 2:", np.mean(RR2), "s")
 <img width="1156" height="393" alt="image" src="https://github.com/user-attachments/assets/23a38973-c798-4b83-9ac7-c5bd6f26b645" />
 
 
-**Parte C**
+<h1 align="center"><i><b>𝐏𝐚𝐫𝐭𝐞 C 𝐝𝐞𝐥 𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐨𝐫𝐢𝐨</b></i></h1>
+
 ```python
 Número de picos R en Segmento 1: 284
 RR medios Segmento 1: 0.42276855123674906 s
