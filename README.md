@@ -693,7 +693,7 @@ plot_poincare(RR2, "Poincaré – Segmento 2 (2–4 min)", "#FF69B4")
 <img width="545" height="548" alt="image" src="https://github.com/user-attachments/assets/75c20da8-6875-42d5-8f6d-9e722956b7d2" />
 <img width="545" height="548" alt="image" src="https://github.com/user-attachments/assets/5383a046-023b-4ab9-ba3f-d9f80e24ce59" />
 
-**Conclusiones**
+<h1 align="center"><i><b>Conclusiones</b></i></h1>
 
 1.La variabilidad de la frecuencia cardíaca (HRV) permitió evaluar de manera efectiva el balance autonómico entre las ramas simpática y parasimpática del sistema nervioso autónomo. Mediante el análisis de los intervalos RR obtenidos de la señal ECG, fue posible identificar cambios significativos entre el estado de reposo y la condición de lectura en voz alta, demostrando que la HRV es un indicador sensible a las variaciones fisiológicas y emocionales del organismo.
 
