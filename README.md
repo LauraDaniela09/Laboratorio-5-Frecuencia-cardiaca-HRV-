@@ -387,8 +387,8 @@ plt.grid(True)
 plt.show()
 ```
 
-<img width="866" height="393" alt="image" src="https://github.com/user-attachments/assets/97b69dd0-bd7a-4b28-b0a1-d486f521182b" />
-<img width="857" height="393" alt="image" src="https://github.com/user-attachments/assets/c425fda2-50a0-4bdc-8bff-a79c3009171f" />
+<img width="600" height="393" alt="image" src="https://github.com/user-attachments/assets/97b69dd0-bd7a-4b28-b0a1-d486f521182b" />
+<img width="600" height="393" alt="image" src="https://github.com/user-attachments/assets/c425fda2-50a0-4bdc-8bff-a79c3009171f" />
 
 Segmento 1: (240000,) (240000,)
 Segmento 2: (240000,) (240000,)
@@ -477,10 +477,10 @@ plt.ylabel("Voltaje (V)")
 plt.grid(True)
 plt.show()
 ```
-<img width="1254" height="547" alt="image" src="https://github.com/user-attachments/assets/2f1bdaa8-df1b-484c-8310-3b44b1b581c4" />
-<img width="1245" height="470" alt="image" src="https://github.com/user-attachments/assets/4d3c464c-2f4c-4d01-a43e-9e2446c8b2a4" />
-<img width="1245" height="547" alt="image" src="https://github.com/user-attachments/assets/789250e4-2f8e-413b-a051-16cc59193a5c" />
-<img width="1245" height="470" alt="image" src="https://github.com/user-attachments/assets/0cea74ae-c371-4764-a70d-2a1cf9744d5b" />
+<img width="900" height="547" alt="image" src="https://github.com/user-attachments/assets/2f1bdaa8-df1b-484c-8310-3b44b1b581c4" />
+<img width="900" height="470" alt="image" src="https://github.com/user-attachments/assets/4d3c464c-2f4c-4d01-a43e-9e2446c8b2a4" />
+<img width="900" height="547" alt="image" src="https://github.com/user-attachments/assets/789250e4-2f8e-413b-a051-16cc59193a5c" />
+<img width="900" height="470" alt="image" src="https://github.com/user-attachments/assets/0cea74ae-c371-4764-a70d-2a1cf9744d5b" />
 
 
 ```python
@@ -589,10 +589,10 @@ print("RR medios Segmento 1:", np.mean(RR1), "s")
 print("Número de picos R en Segmento 2:", len(peaks2))
 print("RR medios Segmento 2:", np.mean(RR2), "s")
 ```
-<img width="1176" height="470" alt="image" src="https://github.com/user-attachments/assets/7805a2c3-963a-48c5-9dea-96dc8f14da0a" />
-<img width="1156" height="393" alt="image" src="https://github.com/user-attachments/assets/1ee3e12d-58a0-4872-9a27-ed03ae64f6cc" />
-<img width="1167" height="470" alt="image" src="https://github.com/user-attachments/assets/5ebb2414-13bb-4c4b-b639-78d8da52380b" />
-<img width="1156" height="393" alt="image" src="https://github.com/user-attachments/assets/23a38973-c798-4b83-9ac7-c5bd6f26b645" />
+<img width="900" height="470" alt="image" src="https://github.com/user-attachments/assets/7805a2c3-963a-48c5-9dea-96dc8f14da0a" />
+<img width="900" height="393" alt="image" src="https://github.com/user-attachments/assets/1ee3e12d-58a0-4872-9a27-ed03ae64f6cc" />
+<img width="900" height="470" alt="image" src="https://github.com/user-attachments/assets/5ebb2414-13bb-4c4b-b639-78d8da52380b" />
+<img width="900" height="393" alt="image" src="https://github.com/user-attachments/assets/23a38973-c798-4b83-9ac7-c5bd6f26b645" />
 
 
 <h1 align="center"><i><b>𝐏𝐚𝐫𝐭𝐞 C 𝐝𝐞𝐥 𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐨𝐫𝐢𝐨</b></i></h1>
@@ -690,8 +690,8 @@ def plot_poincare(RR, titulo, color):
 plot_poincare(RR1, "Poincaré – Segmento 1 (0–2 min)", "#7B68EE")
 plot_poincare(RR2, "Poincaré – Segmento 2 (2–4 min)", "#FF69B4")
 ```
-<img width="545" height="548" alt="image" src="https://github.com/user-attachments/assets/75c20da8-6875-42d5-8f6d-9e722956b7d2" />
-<img width="545" height="548" alt="image" src="https://github.com/user-attachments/assets/5383a046-023b-4ab9-ba3f-d9f80e24ce59" />
+<img width="300" height="548" alt="image" src="https://github.com/user-attachments/assets/75c20da8-6875-42d5-8f6d-9e722956b7d2" />
+<img width="300" height="548" alt="image" src="https://github.com/user-attachments/assets/5383a046-023b-4ab9-ba3f-d9f80e24ce59" />
 
 <h1 align="center"><i><b>Conclusiones</b></i></h1>
 
