@@ -336,7 +336,266 @@ El código carga el archivo `TXT` con `np.loadtxt`, toma la primera columna como
 ![Imagen de WhatsApp 2025-11-18 a las 22 11 31_4c69e59f](https://github.com/user-attachments/assets/aebd81f4-960c-4aa4-8da2-08748ca8fa6f)
 
 
+```python
+import numpy as np
+import matplotlib.pyplot as plt
 
+# Cargar los datos
+data = np.loadtxt('/content/1ECGSOFICOMPLETO.txt')
+t = data[:, 0]      # Tiempo (en segundos)
+senal = data[:, 1]  # Señal ECG
+
+# Duraciones
+t_inicio_1 = 0         # inicio segmento 1
+t_fin_1 = 2 * 60       # 2 minutos → 120 s
+
+t_inicio_2 = 2 * 60    # inicio segmento 2 (120 s)
+t_fin_2 = 4 * 60       # 4 minutos → 240 s
+
+# Crear máscaras para extraer segmentos
+mask1 = (t >= t_inicio_1) & (t < t_fin_1)
+mask2 = (t >= t_inicio_2) & (t < t_fin_2)
+
+# Extraer segmentos
+t_seg1 = t[mask1]
+senal_seg1 = senal[mask1]
+
+t_seg2 = t[mask2]
+senal_seg2 = senal[mask2]
+
+# Mostrar tamaños
+print("Segmento 1:", t_seg1.shape, senal_seg1.shape)
+print("Segmento 2:", t_seg2.shape, senal_seg2.shape)
+
+# Graficar segmentos
+plt.figure(figsize=(10,4))
+plt.plot(t_seg1, senal_seg1, color="#8A2BE2")
+plt.title("Segmento 1 (0–2 min)")
+plt.xlabel("Tiempo (s)")
+plt.ylabel("Voltaje (V)")
+plt.grid(True)
+plt.show()
+
+plt.figure(figsize=(10,4))
+plt.plot(t_seg2, senal_seg2, color="#FF69B4")
+plt.title("Segmento 2 (2–4 min)")
+plt.xlabel("Tiempo (s)")
+plt.ylabel("Voltaje (V)")
+plt.grid(True)
+plt.show()
+```
+
+<img width="866" height="393" alt="image" src="https://github.com/user-attachments/assets/97b69dd0-bd7a-4b28-b0a1-d486f521182b" />
+<img width="857" height="393" alt="image" src="https://github.com/user-attachments/assets/c425fda2-50a0-4bdc-8bff-a79c3009171f" />
+
+Segmento 1: (240000,) (240000,)
+Segmento 2: (240000,) (240000,)
+
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+# ============================
+# 1. CARGAR LA SEÑAL
+# ============================
+data = np.loadtxt('/content/1ECGSOFICOMPLETO.txt')
+t = data[:, 0]      # Tiempo en segundos
+senal = data[:, 1]  # Señal ECG
+
+# ============================
+# 2. DEFINIR SEGMENTOS
+# ============================
+t_inicio_1 = 0
+t_fin_1 = 2 * 60     # 120 s
+
+t_inicio_2 = 2 * 60  # 120 s
+t_fin_2 = 4 * 60     # 240 s
+
+# Máscaras
+mask1 = (t >= t_inicio_1) & (t < t_fin_1)
+mask2 = (t >= t_inicio_2) & (t < t_fin_2)
+
+# Segmentos
+t_seg1 = t[mask1]
+senal_seg1 = senal[mask1]
+
+t_seg2 = t[mask2]
+senal_seg2 = senal[mask2]
+
+print("Segmento 1:", t_seg1.shape)
+print("Segmento 2:", t_seg2.shape)
+
+# ============================
+# 3. GRAFICAR SEGMENTO 1 (Estirado)
+# ============================
+plt.figure(figsize=(15, 6))
+plt.plot(t_seg1, senal_seg1, color="#8A2BE2")
+plt.title("Segmento 1 (0–2 min) – Estirado")
+plt.xlabel("Tiempo (s)")
+plt.ylabel("Voltaje (V)")
+plt.grid(True)
+plt.show()
+
+# ============================
+# 4. ZOOM SEGMENTO 1 (primeros 5 s)
+# ============================
+mask_zoom1 = (t_seg1 >= t_seg1[0]) & (t_seg1 < t_seg1[0] + 5)
+
+plt.figure(figsize=(15, 5))
+plt.plot(t_seg1[mask_zoom1], senal_seg1[mask_zoom1], color="#4B0082")
+plt.title("Segmento 1 – Zoom 5 segundos")
+plt.xlabel("Tiempo (s)")
+plt.ylabel("Voltaje (V)")
+plt.grid(True)
+plt.show()
+
+
+# ============================
+# 5. GRAFICAR SEGMENTO 2 (Estirado)
+# ============================
+plt.figure(figsize=(15, 6))
+plt.plot(t_seg2, senal_seg2, color="#FF69B4")
+plt.title("Segmento 2 (2–4 min) – Estirado")
+plt.xlabel("Tiempo (s)")
+plt.ylabel("Voltaje (V)")
+plt.grid(True)
+plt.show()
+
+# ============================
+# 6. ZOOM SEGMENTO 2 (primeros 5 s)
+# ============================
+mask_zoom2 = (t_seg2 >= t_seg2[0]) & (t_seg2 < t_seg2[0] + 5)
+
+plt.figure(figsize=(15, 5))
+plt.plot(t_seg2[mask_zoom2], senal_seg2[mask_zoom2], color="#C71585")
+plt.title("Segmento 2 – Zoom 5 segundos")
+plt.xlabel("Tiempo (s)")
+plt.ylabel("Voltaje (V)")
+plt.grid(True)
+plt.show()
+```
+<img width="1254" height="547" alt="image" src="https://github.com/user-attachments/assets/2f1bdaa8-df1b-484c-8310-3b44b1b581c4" />
+<img width="1245" height="470" alt="image" src="https://github.com/user-attachments/assets/4d3c464c-2f4c-4d01-a43e-9e2446c8b2a4" />
+<img width="1245" height="547" alt="image" src="https://github.com/user-attachments/assets/789250e4-2f8e-413b-a051-16cc59193a5c" />
+<img width="1245" height="470" alt="image" src="https://github.com/user-attachments/assets/0cea74ae-c371-4764-a70d-2a1cf9744d5b" />
+
+
+```python
+# 1. CARGAR LA SEÑAL
+# ============================
+data = np.loadtxt('/content/1ECGSOFICOMPLETO.txt')
+t = data[:, 0]      # Tiempo en segundos
+senal = data[:, 1]  # Señal ECG
+
+# ============================
+# 2. DEFINIR SEGMENTOS
+# ============================
+t_inicio_1 = 0
+t_fin_1 = 2 * 60     # 120 s
+
+t_inicio_2 = 2 * 60  # 120 s
+t_fin_2 = 4 * 60     # 240 s
+
+# Máscaras
+mask1 = (t >= t_inicio_1) & (t < t_fin_1)
+mask2 = (t >= t_inicio_2) & (t < t_fin_2)
+
+# Segmentos
+t_seg1 = t[mask1]
+senal_seg1 = senal[mask1]
+
+t_seg2 = t[mask2]
+senal_seg2 = senal[mask2]
+
+# ============================
+# 3. DETECCIÓN DE PICOS R
+# ============================
+# Ajusta 'height' y 'distance' según tu señal
+
+fs = 1 / (t[1] - t[0])   # Frecuencia de muestreo estimada
+
+# Segmento 1
+peaks1, _ = find_peaks(senal_seg1, height=np.mean(senal_seg1)+0.3*np.std(senal_seg1), distance=0.25*fs)
+
+# Segmento 2
+peaks2, _ = find_peaks(senal_seg2, height=np.mean(senal_seg2)+0.3*np.std(senal_seg2), distance=0.25*fs)
+
+# ============================
+# 4. CALCULAR RR INTERVALS
+# ============================
+t_R1 = t_seg1[peaks1]                    # tiempos R
+t_R2 = t_seg2[peaks2]
+
+RR1 = np.diff(t_R1)                      # en segundos
+RR2 = np.diff(t_R2)
+
+# ============================
+# 5. GRAFICAR SEGMENTO 1 + PICOS R
+# ============================
+plt.figure(figsize=(14,5))
+plt.plot(t_seg1, senal_seg1)
+plt.plot(t_seg1[peaks1], senal_seg1[peaks1], 'ro', label="Picos R")
+plt.title("Segmento 1 (0–2 min) con picos R")
+plt.xlabel("Tiempo (s)")
+plt.ylabel("Voltaje (V)")
+plt.grid(True)
+plt.legend()
+plt.show()
+
+# ============================
+# 6. GRAFICAR INTERVALOS RR SEGMENTO 1
+# ============================
+plt.figure(figsize=(14,4))
+plt.plot(RR1, marker='o')
+plt.title("Intervalos RR – Segmento 1")
+plt.xlabel("Número de intervalo")
+plt.ylabel("RR (s)")
+plt.grid(True)
+plt.show()
+
+# ============================
+# 7. GRAFICAR SEGMENTO 2 + PICOS R
+# ============================
+plt.figure(figsize=(14,5))
+plt.plot(t_seg2, senal_seg2)
+plt.plot(t_seg2[peaks2], senal_seg2[peaks2], 'ro', label="Picos R")
+plt.title("Segmento 2 (2–4 min) con picos R")
+plt.xlabel("Tiempo (s)")
+plt.ylabel("Voltaje (V)")
+plt.grid(True)
+plt.legend()
+plt.show()
+
+# ============================
+# 8. GRAFICAR INTERVALos RR SEGMENTO 2
+# ============================
+plt.figure(figsize=(14,4))
+plt.plot(RR2, marker='o')
+plt.title("Intervalos RR – Segmento 2")
+plt.xlabel("Número de intervalo")
+plt.ylabel("RR (s)")
+plt.grid(True)
+plt.show()
+
+# ============================
+# 9. MOSTRAR RESULTADOS
+# ============================
+print("Número de picos R en Segmento 1:", len(peaks1))
+print("RR medios Segmento 1:", np.mean(RR1), "s")
+
+print("Número de picos R en Segmento 2:", len(peaks2))
+print("RR medios Segmento 2:", np.mean(RR2), "s")
+```
+<img width="1176" height="470" alt="image" src="https://github.com/user-attachments/assets/7805a2c3-963a-48c5-9dea-96dc8f14da0a" />
+<img width="1156" height="393" alt="image" src="https://github.com/user-attachments/assets/1ee3e12d-58a0-4872-9a27-ed03ae64f6cc" />
+<img width="1167" height="470" alt="image" src="https://github.com/user-attachments/assets/5ebb2414-13bb-4c4b-b639-78d8da52380b" />
+<img width="1156" height="393" alt="image" src="https://github.com/user-attachments/assets/23a38973-c798-4b83-9ac7-c5bd6f26b645" />
+
+Número de picos R en Segmento 1: 284
+RR medios Segmento 1: 0.42276855123674906 s
+Número de picos R en Segmento 2: 300
+RR medios Segmento 2: 0.4007374581939799 s
 
 
 
