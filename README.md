@@ -695,6 +695,11 @@ plot_poincare(RR2, "Poincaré – Segmento 2 (2–4 min)", "#FF69B4")
 
 **Conclusiones**
 
+1.La variabilidad de la frecuencia cardíaca (HRV) permitió evaluar de manera efectiva el balance autonómico entre las ramas simpática y parasimpática del sistema nervioso autónomo. Mediante el análisis de los intervalos RR obtenidos de la señal ECG, fue posible identificar cambios significativos entre el estado de reposo y la condición de lectura en voz alta, demostrando que la HRV es un indicador sensible a las variaciones fisiológicas y emocionales del organismo.
+
+2.Durante la fase en reposo (0–2 min), los valores promedio de los intervalos RR fueron más altos (RR medio ≈ 0.423 s), lo que refleja un ritmo cardíaco más lento y un aumento del tono parasimpático. La gráfica de RR y el diagrama de Poincaré mostraron una dispersión moderada, coherente con un estado fisiológico dominado por la relajación, control vagal y estabilidad cardíaca.
+
+3.En la fase de lectura (2–4 min), los intervalos RR disminuyeron (RR medio ≈ 0.401 s), lo cual implica un incremento en la frecuencia cardíaca. Este comportamiento evidencia una activación del sistema nervioso simpático, asociada a la atención, la carga cognitiva y la respiración más acelerada durante la lectura. El diagrama de Poincaré mostró una nube de puntos ligeramente más compacta, indicando reducción de la variabilidad cardíaca y, por ende, un menor predominio parasimpático.
 
 
 
