@@ -57,6 +57,14 @@ Sistema nervioso  parasimpatico: controla la actividad de los musculo liso cardi
 
 𝟮. 𝙀𝙛𝙚𝙘𝙩𝙤 𝙙𝙚 𝙡𝙖 𝙖𝙘𝙩𝙞𝙫𝙞𝙙𝙖𝙙 𝙨𝙞𝙢𝙥𝙖𝙩𝙞𝙘𝙖 𝙙𝙚𝙡 𝙨𝙞𝙨𝙩𝙚𝙢𝙖 𝙣𝙚𝙧𝙫𝙞𝙤𝙨𝙤 𝙖𝙪𝙩𝙤𝙣𝙤𝙢𝙤:
 
+La regulación de la frecuencia cardiaca está en manos de los sistemas nerviosos simpático y parasimpático. Ambos sistemas moderan la actividad de los nodos del corazón, así como la contracción miocárdica, todo esto por medio de comunicación electrónica y neuroquímica. 
+El simpático va a favor de aumentar la frecuencia cardiaca, mientras que el parasimpático relaja el corazón y disminuye su bombeo. El balance entre estos dos mantiene la homeostasis cardiovascular, y la alteración de ese equilibrio desencadena condiciones y patologías.
+
+El corazón es inervado por ambas ramas del sistema nervioso autónomo a traves del plexo cardíaco, que rodea la base del corazón y los grandes vasos. La inervación simpática se origina en la médula espinal a nivel torácico, las fibras preganglionares llegan al plexo y se distribuyen en los nodos SA, AV y el miocardio. El simpático libera noradrenalina en los receptores beta 1-adrenérgicos, generando así un aumento en  la contractilidad y frecuencia cardiaca. 
+
+Por otro lado el sistema parasimpatico proviene del nervio vago, sus fibras preganglionares hacen sinapsis en los ganglios intrínsecos que estan ubicados en unas zonas grasas cardiacas y la pared auricular. Despues se libera acetilcolina ACh en los receptores muscarinicos M2 acoplados a proteinas G en el miocardio y los nodos. Esto resulta en la apertura de canales de potasio, hiperpolarizando la membrana del nodo SA, alejando el potencial de membrana del umbral que debe cumplir. Además disminuye los niveles de AMPc, lo cual disminuye la velocidad de conducción, realentizando la despolarización espontanea y por consecuente la contractilidad auricular y frecuencia cardiaca. 
+
+
 𝟯. 𝙫𝙖𝙧𝙞𝙖𝙗𝙞𝙡𝙞𝙙𝙖𝙙 𝙙𝙚 𝙡𝙖 𝙛𝙧𝙚𝙘𝙪𝙚𝙣𝙘𝙞𝙖 𝙘𝙖𝙧𝙙𝙞𝙖𝙘𝙖 (𝙃𝙍𝘾) 𝙤𝙗𝙩𝙚𝙣𝙞𝙙𝙖 𝙖 𝙥𝙖𝙧𝙩𝙞𝙧 𝙙𝙚 𝙡𝙖 𝙨𝙚𝙣̃𝙖𝙡 𝙚𝙡𝙚𝙘𝙩𝙧𝙤𝙘𝙖𝙧𝙙𝙞𝙤𝙜𝙧𝙖𝙛𝙞𝙘𝙖 (𝙀𝘾𝙂).
 
 La variabilidad de la frecuencia cardíaca (HRV) es un indicador fisiológico que mide las fluctuaciones en el intervalo de tiempo entre latidos consecutivos del corazón, conocidos como intervalos RR. Estos valores se obtienen a través de la señal electrocardiográfica (ECG). Este análisis proporciona información valiosa sobre el equilibrio entre las ramas simpática y parasimpática del sistema nervioso autónomo, responsables de regular la actividad cardíaca (Shaffer y Ginsberg, 2017).
